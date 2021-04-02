@@ -1,0 +1,77 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+h1 {
+  margin: 2%;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  width: 85%;
+  margin: 25px auto;
+  cursor: pointer;
+}
+
+.card {
+  margin: 3px;
+  transition: transform 1s;
+  -webkit-transition: transform 1s;
+  -moz-transition: transform 1s;
+  -ms-transition: transform 1s;
+  -o-transition: transform 1s;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.card:nth-of-type(1) {
+  background: #84a3d1;
+}
+.card:nth-of-type(2) {
+  background: #dce4f0;
+}
+.card:nth-of-type(3) {
+  background: #84a3d1;
+}
+.card:nth-of-type(4) {
+  background: #dce4f0;
+}
+.card:nth-of-type(5) {
+  background: #84a3d1;
+}
+.card:nth-of-type(6) {
+  background: #dce4f0;
+}
+.card:hover {
+  transform: translateY(-12px);
+  -webkit-transform: translateY(-12px);
+  -moz-transform: translateY(-12px);
+  -ms-transform: translateY(-12px);
+  -o-transform: translateY(-12px);
+}
+.card img {
+  width: 100%;
+}
+.card .info {
+  padding: 1rem;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-family: sans-serif;
+}
+.card .info strong {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 115%;
+}
+
+/*# sourceMappingURL=style.css.map */
